@@ -27,7 +27,7 @@ jobs:
           npm install
           npm run build
           sed -i s#/assets/#https://github.com/1oop/YeHangChuan/raw/gh-pages/assets/# .vuepress/dist/index.html
-          echo "yehangchuan.js.org" >> .vuepress/dist/CNAME
+        # echo "yehangchuan.js.org" >> .vuepress/dist/CNAME
 
       - name: Deploy Github-Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
