@@ -125,7 +125,7 @@ async function generatePDF(ctx, port, host) {
         }, scriptToInject);
 
         if (url === "/") {
-            title = "凤凰架构"
+            title = "夜航船"
         }
 
         await browserPage.pdf({
