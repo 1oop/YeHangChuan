@@ -26,7 +26,7 @@ jobs:
           export TZ='Asia/Shanghai'
           npm install
           npm run build
-          echo "icyfenix.cn" >> .vuepress/dist/CNAME
+          echo "yehangchuan.js.org" >> .vuepress/dist/CNAME
 
       - name: Deploy Github-Pages
         uses: JamesIves/github-pages-deploy-action@4.1.4
