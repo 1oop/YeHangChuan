@@ -29,8 +29,8 @@ jobs:
           echo "yehangchuan.life" >> .vuepress/dist/CNAME
         # sed -i s#/assets/#https://github.com/1oop/YeHangChuan/raw/gh-pages/assets/#g .vuepress/dist/index.html
 
-      - name: Deploy Github-Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
           folder: .vuepress/dist
