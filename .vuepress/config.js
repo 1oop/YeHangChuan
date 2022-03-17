@@ -1,6 +1,6 @@
 module.exports = {
     title: "夜航船",
-    description: "世间学问，惟夜航船最难对付。",
+    description: "云时代程序员的枕边书",
     host: 'localhost',
     port: 8080,
     dest: '.vuepress/dist',
@@ -45,8 +45,8 @@ module.exports = {
         //             // 如果你对"clientSecret"有疑问,可以参考 http://icyfenix.cn/architect-perspective/general-architecture/system-security/authorization.html#oauth2
         //             clientSecret: '4cbf25bbf327f1164627d2ab43263b07b14c54fe',
         //             repo: 'awesome-fenix',
-        //             owner: 'fenixsoft',
-        //             admin: ['fenixsoft'],
+        //             owner: '1oop',
+        //             admin: ['1oop'],
         //             labels: ["Gitalk", "Comment"],
         //             id: '<%- ("icyfenix.cn" + (frontmatter.to.path || window.location.pathname)).slice(-50) %>',
         //             title: '「Comment」<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>',
@@ -54,7 +54,7 @@ module.exports = {
         //             distractionFreeMode: false,
         //             pagerDirection: 'last',
         //             // proxy: 'https://netnr-proxy.cloudno.de/https://github.com/login/oauth/access_token'
-        //             proxy: 'https://fenixsoft-cors.herokuapp.com/https://github.com/login/oauth/access_token'
+        //             proxy: 'https://1oop-cors.herokuapp.com/https://github.com/login/oauth/access_token'
         //         }
         //     }
         // ],
