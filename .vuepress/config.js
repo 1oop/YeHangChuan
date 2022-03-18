@@ -100,6 +100,13 @@ module.exports = {
                 children: [
                     '/domain-drive-design/tools'
                 ]
+            },
+            {
+                title: '采集',
+                collapsable: false,
+                children: [
+                    '/scrape/architecture'
+                ]
             }
         ]
     }
