@@ -102,10 +102,11 @@ module.exports = {
                 ]
             },
             {
-                title: '采集',
+                title: '架构设计',
                 collapsable: false,
                 children: [
-                    '/scrape/architecture'
+                    '/architecture/into',
+                    '/architecture/layer'
                 ]
             }
         ]
