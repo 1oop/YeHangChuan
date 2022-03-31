@@ -100,6 +100,14 @@ module.exports = {
                 children: [
                     '/domain-drive-design/tools'
                 ]
+            },
+            {
+                title: '架构设计',
+                collapsable: false,
+                children: [
+                    '/architecture/into',
+                    '/architecture/layer'
+                ]
             }
         ]
     }
