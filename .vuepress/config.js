@@ -108,6 +108,19 @@ module.exports = {
                     '/architecture/into',
                     '/architecture/layer'
                 ]
+            },
+            {
+                title: '学习日志',
+                collapsable: false,
+                children: [
+                    {
+                        title: '2022年',
+                        collapsable: false,
+                        children: [
+                            "/learn/2022/04/7",
+                        ]
+                    }
+                ]
             }
         ]
     }
